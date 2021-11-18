@@ -1,0 +1,148 @@
+table {
+  margin: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+td,
+th {
+  width: 360px;
+  text-align: center;
+  padding: 10px;
+}
+p {
+  padding: 10px;
+  margin-left: 320px;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0, 0, 0); 
+  background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.modal-content {
+  position: relative;
+  background-color: white ;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 38%;
+  box-shadow: 0 4px 8px 0   #f2f2f2, 0 6px 20px 0   #f2f2f2;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.close {
+  color: #5c5cd6;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: white;
+  color: #5c5cd6;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: white;
+  color: white;
+}
+input[type="text"],
+input[type="number"] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+}
+label {
+  padding: 8px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  width: 160px;
+  display: inline-block;
+  text-decoration: double;
+  font-size: large;
+}
+
+hr{
+  height:1px;
+  border-width:1px;
+  color:gray;
+  background-color:gray
+}
+button {
+  padding: 14px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #5c5cd6;
+  font-size: 1.1em;
+  border: 0;
+  cursor: pointer;
+  margin: 1em;
+}
+.top-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#table2 {
+  margin-left: 152px;
+}
+
+.del-icon {
+  font-size: 50px;
+  padding-left: 50px;
+  color: #668cff;
+  }
+  .edit-icon {
+  font-size: 50px;
+  color: #668cff;
+  }
